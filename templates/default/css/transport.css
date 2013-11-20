@@ -1,0 +1,497 @@
+@charset "utf-8";
+.postage-tpl-head { margin-left: 30px; margin-right: 5px;}
+.postage-tpl-head ul, ol { line-height: 21px; list-style: none outside none;}
+.postage-tpl-head .field-note { color: #808080;}
+.postage-tpl-head .form-elem { margin-bottom: 8px; overflow: hidden; padding-left: 7em;}
+.postage-tpl-head .label-like { text-align: right; float: left; width: 7em; margin-left: -7em;}
+.postage-tpl { margin-left: 110px; margin-right: 5px;}
+.postage-tpl .trans-line { line-height: 25px;}
+.postage-tpl .default { line-height: 32px; background-color: #F3FEED; padding: 0 15px 5px; margin-top: 5px;}
+.postage-tpl .tbl-except .edit { float: right;}
+.postage-tpl a { color: #36C; text-decoration: none;}
+.postage-tpl table { border-collapse: collapse; border-spacing: 0;}
+.postage-tpl .tbl-except table { border-color: #BBB; border-style: solid; border-width: 1px 0 0 1px; width: 100%;}
+.postage-tpl .postage-detail { padding: 5px; margin: 5px 0; border: 1px dashed #D3E5F3;}
+/*.postage-tpl .setting {
+    color: #404040;
+}*/
+.postage-tpl .express .section { margin-bottom: 8px;}
+.postage-tpl .tbl-except { margin-top: 10px;}
+.postage-tpl .tbl-except th { font-weight: 400; background-color: #F5F5F5; height: 32px;}
+.postage-tpl .tbl-except .input-text { text-align: right; width: 4em;}
+.postage-tpl .tbl-except th, .postage-tpl .tbl-except td { text-align: center; border-style: solid; border-color: #BBB; border-width: 0 1px 1px 0;}
+.postage-tpl .tbl-except .area-group { display: block; padding-right: 3em;}
+.postage-tpl .tbl-except .cell-area { text-align: left; width: 292px;}
+.postage-tpl .tbl-except td { padding: 3px 5px;}
+.postage-tpl .tbl-except th, .postage-tpl .tbl-except td { border-color: #BBB; border-style: solid; border-width: 0 1px 1px 0; text-align: center;}
+/*.postage-tpl .tbl-except input{
+	width:52px;
+    border: 1px solid #7F9DB9;
+    height: 15px;
+    line-height: 15px;
+    padding: 1px 0;
+    width:80px;
+    vertical-align: middle;	
+}*/
+/*.postage-tpl .input_active {
+    border: 1px solid #7F9DB9;
+    height: 15px;
+    line-height: 15px;
+    padding: 1px 0;
+    width:80px;
+    vertical-align: middle;
+}*/
+.postage-tpl .input_readonly { background-color: #EEE; border: 1px solid #CCC;}
+.postage-tpl .tbl-attach { line-height: 24px; margin-top: 5px;}
+.postage-tpl .batch { line-height: 24px; margin-left: 6px;}
+.postage-tpl .input-text { vertical-align: middle; width: 6em;}
+.postage-tpl .input-error { background-color: #FFF2F2; border: 1px solid #FF8080;}
+.postage-tpl span.msg:after { display: none;}
+.msg:after, .msg24:after { clear: both; content: " "; display: block; height: 0;}
+.postage-tpl span.msg { margin-right: 3px;}
+.postage-tpl span.error, .postage-tpl span.stop { display: inline-block; float: none;}
+.msg .error, .msg .stop, .msg .alert, .msg .attention, .msg .tips, .msg .ok, .msg .notice, .msg .question, .msg .help, .msg .small-help {
+	background: url("../images/msg_bg.png") no-repeat scroll 0 0 transparent;
+	border: 1px solid #DDDDDD;
+	color: #404040;
+	float: left;
+	line-height: 18px;
+	padding: 2px 10px 2px 23px;
+}
+.msg .error {
+	background-color: #FFF2F2;
+	background-position: 3px 3px;
+	border-color: #FF8080;
+}
+.dialog-areas {
+	background-color: #FFFFFF;
+	border: 1px solid #C4D5DF;
+	position: absolute;
+	width: 580px;
+}
+.dialog-areas .title {
+	background-color: #E9F1F4;
+	border-color: #FFFFFF #FFFFFF #C4D5DF;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: 700;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 10px;
+}
+.dialog-areas .even {
+	background-color: #ECF4FF;
+}
+.dialog-areas .btns {
+	margin-left: 430px;
+	padding: 5px 0 5px 10px;
+}
+.dialog-areas label {
+	margin: 0 3px;
+}
+.dialog-areas ul {
+	border-bottom: 1px solid #C4D5DF;
+}
+.dialog-areas li {
+	overflow: hidden;
+	width: 100%;
+}
+.dialog-areas li span.group-label {
+	display: inline-block;
+	font-weight: 700;
+	margin-right: 5px;
+	padding: 5px 0 5px 10px;
+	width: 70px;
+}
+.dialog-areas button {
+	margin-right: 5px;
+	padding: 2px 3px;
+}
+.dialog-areas .btns .msg {
+	position: absolute;
+}
+.dialog-areas input, .dialog-areas button {
+	vertical-align: middle;
+}
+.dialog-areas .ks-ext-close {
+	font-size: 10px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.dialog-areas .areas b {
+	border-color: #666666 #FFFFFF #FFFFFF;
+	border-style: solid;
+	border-width: 4px;
+	display: none;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 0;
+}
+.ks-ext-mask {
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+.dialog-address {
+	background-color: #F1FAFE;
+	border: 1px solid #95D2FF;
+	position: absolute;
+	width: 580px;
+}
+.dialog-address .hd {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	padding: 0 5px;
+}
+.dialog-address h3 {
+	display: inline;
+}
+.dialog-address .action {
+	float: right;
+}
+.dialog-address table {
+	border-left: 1px solid #FFFFFF;
+	width: 100%;
+}
+.dialog-address caption {
+	display: none;
+}
+.dialog-address .col-uid {
+	width: 30px;
+}
+.dialog-address .col-name {
+	width: 80px;
+}
+.dialog-address .col-postcode {
+	width: 60px;
+}
+.dialog-address .col-phone, .dialog-address .col-mobile {
+	width: 90px;
+}
+.dialog-address td {
+	background-color: #E2EFFF;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	height: 34px;
+	padding: 5px;
+	word-wrap: break-word;
+}
+.dialog-address .even td {
+	background-color: #CBE1FF;
+}
+.dialog-address input {
+	vertical-align: middle;
+}
+.dialog-address .ft {
+	padding: 5px;
+}
+.dialog-batch {
+	background-color: #FFFFFF;
+	border: 1px solid #95D2FF;
+	padding: 10px;
+	position: absolute;
+	width: 580px;
+}
+.dialog-batch .input-readonly {
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+}
+.dialog-batch .btns {
+	padding-top: 10px;
+	text-align: center;
+}
+.dialog-batch button {
+	margin: 0 5px;
+}
+.dialog-batch .ks-ext-close {
+	font-size: 10px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.dialog-batch .input-text {
+	border: 1px solid #7F9DB9;
+	height: 15px;
+	line-height: 15px;
+	padding: 1px 0;
+	width: 6em;
+}
+button, input, select, textarea {
+	font-size: 100%;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+}
+.clearfix {
+}
+.citys {
+	background-color: #FFFEC6;
+	border: 1px solid #F7E4A5;
+	display: none;
+	float: right;
+	left: 0;
+	position: absolute;
+	top: 23px;
+	width: 214px;
+	z-index: 20000;
+	white-space: normal;
+}
+.styblock {
+	display: block;
+}
+.citys span {
+	line-height: 2;
+	margin-right: 2px;
+}
+.dialog-areas li {
+	overflow: visible;
+}
+.dcity {
+	display: block;
+	vertical-align: middle;
+	z-index: 1;
+}
+.ecity {
+	float: left;
+	height: 30px;
+	margin-right: 1px;
+	padding-right: 8px;
+	position: relative;
+	width: 80px;
+}
+.gcity, .province-list {
+	display: inline-block;
+}
+.province-list {
+	width: 450px;
+}
+.trigger {
+	cursor: pointer;
+	height: 8px;
+	padding: 2px;
+	width: 8px;
+}
+.dialog-areas li span.areas {
+	display: inline-block;
+	margin-right: 3px;
+	padding: 4px 0 1px 4px;
+}
+.dialog-areas span.gareas {
+	border: 1px solid #FFFFFF;
+	display: inline-block;
+	height: 17px;
+	margin-right: 3px;
+	padding: 4px 4px 1px;
+	position: relative;
+	white-space: nowrap;
+}
+.dialog-areas .even span.gareas {
+	background-color: #ECF4FF;
+	border-color: #ECF4FF;
+}
+.dialog-areas li span.egareas {
+	background-color: #FFFEC6;
+	border: 1px solid #F7E4A5;
+	display: inline-block;
+	margin-right: 3px;
+	padding: 3px 0 1px;
+	width: 70px;
+}
+.showCityPop {
+	z-index: 55556;
+}
+.dialog-areas .showCityPop .gareas {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #FFFEC6;
+	border-color: #F7E4A5 #F7E4A5 #FFFEC6;
+	border-style: solid;
+	border-width: 1px;
+	z-index: 56000;
+}
+.dialog-areas .even .showCityPop .gareas {
+	background-color: #FFFEC6;
+	border-color: #F7E4A5 #F7E4A5 #FFFEC6;
+}
+.showCityPop .citys {
+	display: block;
+	z-index: 55900;
+}
+.checkbox {
+	padding: 0;
+	vertical-align: middle;
+}
+.dialog-areas label {
+	margin: 0 1px;
+}
+.check_num {
+	color: #F60;
+	font-size: 12px;
+	letter-spacing: -1px;
+	padding-right: 1px;
+}
+.hidden {
+	display: none;
+}
+.J_ToggleBatch {
+	margin-left: 20px;
+}
+.J_BatchDel {
+	margin-left: 20px;
+}
+/*-----------------------------列表页-------------------------*/
+
+#postage-tpl .manage-list {
+	color: #404040;
+	margin: 0 auto;
+}
+
+#postage-tpl .manage-list .link-help {
+	float: right;
+	line-height: 25px;
+}
+
+
+
+#postage-tpl .manage-list .section {
+	margin-top: 10px;
+}
+#postage-tpl .manage-list .tbl-prefix {
+	background-color: #E8F2FF;
+	border-color: #BBBBBB;
+	border-style: solid;
+	border-width: 1px 1px 0;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+}
+
+#postage-tpl .manage-list .link-help {
+	float: right;
+	line-height: 25px;
+}
+#postage-tpl .manage-list .tbl-head {
+	position: relative;
+}
+#postage-tpl .manage-list .entity {
+	margin-top: -1px;
+	max-height: 190px;
+	overflow-y: auto;
+	width: 100%;
+}
+#postage-tpl .manage-list .section {
+	margin-top: 10px;
+}
+#postage-tpl .manage-list .tbl-prefix {
+	background-color: #E8F2FF;
+	border-color: #BBBBBB;
+	border-style: solid;
+	border-width: 1px 1px 0;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+}
+#postage-tpl .manage-list .used .tbl-prefix {
+	background-color: #FFE5CE;
+}
+#postage-tpl .manage-list .tbl-prefix .meta {
+	color: #808080;
+	float: right;
+}
+#postage-tpl .manage-list .tbl-prefix a {
+	color: #3366CC;
+}
+#postage-tpl .manage-list table {
+	border-color: #BBBBBB;
+	border-style: solid;
+	border-width: 1px 0 0 1px;
+	table-layout: fixed;
+	width: 100%;
+}
+#postage-tpl .manage-list .col-area {
+	width: 290px;
+}
+#postage-tpl .manage-list .entity .col-area {
+}
+#postage-tpl .manage-list .col-express, #postage-tpl .manage-list .col-starting, #postage-tpl .manage-list .col-postage, #postage-tpl .manage-list .col-plus {
+	width: 90px;
+}
+#postage-tpl .manage-list th, #postage-tpl .manage-list td {
+	border-color: #BBBBBB;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	text-align: center;
+}
+#postage-tpl .manage-list th {
+	background-color: #F5F5F5;
+	font-weight: 400;
+	height: 28px;
+}
+#postage-tpl .manage-list td {
+	height: 31px;
+}
+#postage-tpl .manage-list .cell-area {
+	padding: 0 5px;
+	text-align: left;
+}
+#postage-tpl .manage-list .tbl-attach {
+	border-color: #BBBBBB;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	
+	padding: 10px; overflow:hidden;
+}
+#postage-tpl .manage-list .tbl-attach .msg {
+	float: right;
+	margin-top: 8px;
+}
+#postage-tpl .list-attach {
+	height: 25px;
+	margin: 5px auto 0;
+	width: 760px;
+}
+
+
+#postage-tpl .list-attach .pagination {
+	float: right;
+}
+#postage-tpl .msg-sample {
+	margin: 10px 0;
+}
+#postage-tpl .msg-sample .tips {
+	float: none;
+}
+#postage-tpl .sample-title {
+	font-size: 14px;
+	margin-top: 10px;
+}
+#postage-tpl .sample-title span {
+	font-size: 12px;
+	font-weight: 400;
+}
+#postage-tpl .sample-note {
+	margin-top: 10px;
+}
+#postage-tpl .sample-note em {
+	color: #FF6600;
+}
+#postage-tpl .feedback-close {
+	float: right;
+}
+.trans-submit {
+	text-align: center;
+	width: 100%
+}

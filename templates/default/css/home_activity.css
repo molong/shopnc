@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* ================================ */
+/* 商城活动页面独立样式定义 				*/
+/* Author:			Hulihutu		*/
+/* Copyright:		www.shopnc.net	*/
+/* Create Date:		Aug-10-2012		*/
+/* Retrofit Date:	Aug-10-2012		*/
+/* ================================ */
+
+.sale .list_pic { width: 1000px; }
+.sale .list_pic li { display:inline; width: 184px; height: 300px; float: left; padding: 1px 5px 5px 1px; margin: 20px 10px 0 0; }
+.sale .list_pic li.c1 { background: url(../images/sale_list_bg.gif) no-repeat left top;}
+.sale .list_pic li.c2 { background: url(../images/sale_list_bg.gif) no-repeat left bottom;}
+.sale .list_pic li dl{ display: block; width: 180px; height: 280px;	}
+.sale .list_pic li dl a { color: #000; text-decoration: none;}
+.sale .list_pic li dl a:hover { text-decoration: underline; color: #F00;}
+.sale .list_pic li dl dt{ background-color: #EEE; width: 160px; height: 160px; margin: 10px auto;}
+.sale .list_pic li dl dt img {   }
+.sale .list_pic li dl dd { font-size: 12px; font-weight: normal; line-height: 16px; color: #555; display: block; width: 160px; clear: both; padding: 0; margin: 0 10px;}
+.sale .list_pic li dl dd.goodsname { line-height: 18px; height: 34px; padding-bottom: 5px; overflow: hidden;}
+.sale .list_pic li dl dd.cost { line-height: 20px; color: #999; width: 132px; display: block; padding-left: 28px;}
+.sale .list_pic li dl dd.cost h4 { font-size: 12px; font-weight: normal; text-decoration: line-through; color: #999; display: inline;}
+.sale .list_pic li dl dd.price { background: url(../images/sale_price.gif) no-repeat 4px 0px; text-align: center; display: block; width: 160px; height: 33px; padding: 0 0 0 4px; margin: 5px 10px;}
+.sale .list_pic li dl dd.price h4 { font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 33px; color: #FFF; height: 33px; float: left; margin-left: 76px;}

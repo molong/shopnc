@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0 auto; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px;  line-height: 1.5em;}
+body { padding:0; background: #F4F7FD; color: #666666;}
+a { text-decoration: none; color: #FF6600;}
+.container { border: 1px solid #D5E3EE;  width: 700px; height: auto !important;}
+.header { background: url(images/top.jpg) no-repeat; height: 90px;}
+.main { padding: 20px 20px 0; background:#FFFFFF;}
+.menu { width: 90%;}
+.menu_tr td { border-bottom: 3px solid #EEEEEE; color: #999999; height: 30px; line-height: 30px;}
+.menu_td{ padding:14px 0;}
+.menu_td a{ color:#0C0EFC; text-decoration:underline;}
+.current { border-bottom-color: #FF9900 !important; color: #009900 !important; font-weight: bold;}
+.footer { border-top: 1px solid #D5E3EE; font-size: 11px; padding-bottom: 5px; padding-top: 5px; text-align: center;}
+.footer p { display: block; padding-top: 10px; text-align: center; width: 100%;}
+
+.btnbox{ text-align:center; }
+	.btnbox input{ margin:0 2px; }
+	.btnbox textarea{ margin-bottom:10px; width: 90%; height:150px; }

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {font-family: "微软雅黑", "宋体", Tahoma, Arial; font-size: 12px; line-height: 24px; background:#CFDFEC url(../images/login_bg.png) repeat-x center top; padding: 0px; margin: 0px;}
+a { color: #007FCA; }
+a:hover { color: #F60; }
+#loginBox { background: url(../images/login.png) no-repeat 0px 0px; width: 738px; height: 506px; margin: 9px auto auto auto; position: relative;}
+#loginBox div { width: 450px; height: 32px; padding: 0px; margin: 0px; position: absolute;}
+#loginBox div.username { top: 214px; left: 105px;}
+#loginBox div.password { top: 268px; left: 105px;}
+#loginBox div.code { top: 323px; left: 105px;}
+
+#loginBox div h5 { font-size: 14px; color: #2B4253; line-height: 32px; font-weight: normal; display: block; float: left; padding: 0px 35px 0px 15px;margin: 0px;}
+#loginBox div input.text{ font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 24px; height: 24px; float: left; padding: 0px; margin: 4px 0px 4px 8px; border-width: 0px;}
+#loginBox div input.btnEnter { font-size: 12px; line-height: 39px; background: url(../images/login.png) no-repeat right -506px; width: 98px; height: 39px; padding: 0px; margin: 0px; border-width: 0px; cursor:pointer; }
+#loginBox div.code span{ float: left; margin-top: 4px; margin-left: 30px;}
+#loginBox div.button { width: 98px; height: 39px; position: absolute; top: 384px; right: 173px; cursor:pointer;}
+#loginBox div.back { line-height: 28px; background: url(../images/login.png) no-repeat left -506px; width: 120px; height: 30px; padding-left: 40px; position: absolute; top: 390px; left: 97px; }
+#loginBox div.help { line-height: 28px; background: url(../images/login.png) no-repeat -250px -506px; width: 120px; height: 30px; padding-left: 40px; border: 0; position: absolute; top: 390px; left: 230px; }
+#loginBox div.copyright{ font-size: 12px; line-height: 20px; color: #355166; text-align: center; width: 90%; height: 40px; bottom: 3px; position: absolute; left: 0px; right: 0px;}
