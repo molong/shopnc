@@ -1,0 +1,310 @@
+.z {
+	float: left;
+}
+.y {
+	float: right;
+}
+.xg1, .xg1 a {
+	color: #999 !important;
+}
+.xg1 .xi2 {
+	color: #369 !important;
+}
+.xg2 {
+	color: #666;
+}
+.notice {
+	clear: both;
+	margin: 5px 0;
+	padding: 3px 5px 3px 20px;
+	background: url(../images/dialog/notice.gif) no-repeat 2px 6px;
+}
+#ajaxwaitid {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	padding: 0 5px;
+	background: #D00;
+	color: #FFF;
+}
+.showmenu {
+	padding-right: 16px;
+	background: url(../images/dialog/arrwd.gif) no-repeat 100% 50%;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.pn {
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right: 3px;
+	padding: 0;
+	height: 23px;
+	border: 1px solid #999;
+	cursor: pointer;
+	-moz-box-shadow: 0 1px 0 #E5E5E5;
+	-webkit-box-shadow: 0 1px 0 #E5E5E5;
+	box-shadow: 0 1px 0 #E5E5E5;
+}
+.pn:active {
+	background-position: 0 -23px;
+}
+.ie6 .pn {
+	overflow-x: visible;
+	width: 0;
+}
+.pn span, .pn strong {
+	padding: 0 10px;
+	line-height: 21px;
+}
+.pn strong {
+	font-weight: 700;
+}
+.ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+	padding: 0 5px;
+	line-height: 18px;
+}
+.pnc, a.pnc {
+	border-color: #235994;
+	background-color: #06C;
+	background-position: 0 -48px;
+	color: #FFF !important;
+}
+.pnc:active {
+	background-position: 0 -71px;
+}
+.altw {
+	width: 350px;
+}
+.altw .fltc {
+	margin-bottom: 0;
+	padding: 8px;
+}
+.alert_right, .alert_error, .alert_info {
+	padding: 6px 0 6px 58px;
+	min-height: 40px;
+	height: auto !important;
+	height: 40px;
+	line-height: 160%;
+	background: url(../images/dialog/right.gif) no-repeat 8px 8px;
+	font-size: 14px;
+}
+.alert_error {
+	background-image: url(../images/dialog/error.gif);
+}
+.alert_error a {
+	font-weight: 700;
+	color: #369;
+}
+.alert_info {
+	background-image: url(../images/dialog/info.gif);
+}
+.alert_btnleft {
+	margin-top: 8px;
+}
+.alert_btn {
+	margin-top: 20px;
+	text-align: center;
+}
+.alert_act {
+	margin-top: 20px;
+	padding-left: 58px;
+}
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r {
+	overflow: hidden;
+	background: #000;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+.t_l, .t_r, .b_l, .b_r {
+	width: 4px;
+	height: 4px;
+}
+.t_c, .b_c {
+	height: 4px;
+}
+.m_l, .m_r {
+	width: 4px;
+}
+.t_l {
+	-moz-border-radius: 4px 0 0 0;
+	-webkit-border-radius: 4px 0 0 0;
+	border-radius: 4px 0 0 0;
+}
+.t_r {
+	-moz-border-radius: 0 4px 0 0;
+	-webkit-border-radius: 0 4px 0 0;
+	border-radius: 0 4px 0 0;
+}
+.b_l {
+	-moz-border-radius: 0 0 0 5px;
+	-webkit-border-radius: 0 0 0 5px;
+	border-radius: 0 0 0 5px;
+}
+.b_r {
+	-moz-border-radius: 0 0 4px 0;
+	-webkit-border-radius: 0 0 4px 0;
+	border-radius: 0 0 4px 0;
+}
+.m_c {
+	background: #FFF; border: 1px solid #7B7B7B;;
+}
+.m_c .tb {
+	margin: 0 0 10px;
+	padding: 0 10px;
+}
+.m_c .c {
+	padding: 10px 10px 0 10px;
+}
+.m_c .o {
+	background-color: #F9F9F9;
+	border-top: 1px solid #EAEAEA;
+	margin-top: 12px;
+	padding: 12px;
+	text-align: right; overflow:hidden; zoom:1; font-size:12px;
+}
+.m_c .el {
+	width: 420px;
+}
+.m_c .el li {
+	padding: 0;
+	border: none;
+}
+.flb {
+	height: 31px;
+}
+.flb_title {
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #EAEAEA;
+	color: #666666;
+	display: block;
+	font-weight: bold;
+	line-height: 14px;
+	padding: 8px 10px
+}
+.flb em a {
+	text-decoration: none;
+}
+.flb .needverify {
+	float: left;
+	margin-left: 8px;
+	padding-left: 13px;
+	width: 45px;
+	height: 21px;
+	line-height: 21px;
+	background: url(../images/dialog/re_unsolved.gif) no-repeat 0 0;
+	font-size: 12px;
+	color: #999;
+	font-weight: 400;
+}
+.flb .onerror, .flb .onright {
+	padding-left: 20px;
+	height: auto;
+	line-height: 140%;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: 400;
+}
+.flb .onerror {
+	background: url(../images/dialog/check_error.gif) no-repeat 0 50%;
+}
+.flb .onright {
+	background: url(../images/dialog/check_right.gif) no-repeat 0 50%;
+	color: #666;
+}
+.flb span {
+	float: right;
+	color: #999;
+}
+.flb span a, .flb strong {
+	float: left;
+	text-decoration: none;
+	/*margin-left:8px;*/
+	font-weight: 400;
+	color: #333;
+}
+.flb span a:hover {
+	color: #999;
+}
+.flbc {
+	background: url(../images/dialog/dialog_close_button.gif) repeat scroll left top transparent;
+	cursor: pointer;
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	width: 14px;
+	text-indent: 1000px;
+	overflow: hidden;
+}
+.flbc:hover {
+	background: url(../images/dialog/dialog_close_button.gif) repeat scroll left bottom transparent;
+}
+.floatwrap {
+	overflow: auto;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+	height: 280px;
+}
+.f_c {
+}
+.f_c li {
+	list-style: none;
+}
+.f_c hr.l {
+	margin: 0;
+}
+.f_c a {
+	color: #369;
+}
+.f_c .list {
+	margin: 0 auto 10px;
+	width: 570px;
+	border-top: 3px solid #CDCDCD;
+}
+.f_c .list th, .f_c .list td {
+	padding: 5px 2px;
+	height: auto;
+	border-bottom: 1px dashed #CDCDCD;
+}
+.f_c .list .btns th, .f_c .list .btns td {
+	border-bottom: none;
+}
+.f_c .th th, .f_c .th td {
+	padding: 10px 0;
+}
+.f_c .list th {
+	background: none;
+}
+.nfl {
+	height: auto !important;
+	height: 320px;
+	min-height: 320px;
+}
+.nfl .f_c {
+	margin: 60px auto;
+	padding: 20px;
+	width: 580px;
+	border: 3px solid #F2F2F2;
+	background: #FFF;
+}
+.nfl .loginform {
+	height: auto;
+}
+.nfl .clause {
+	width: auto;
+	height: auto;
+}
+.fwin { border-radius: 4px; box-shadow: 0 0 12px rgba(0, 0, 0, 0.75);}
+.fwin .rfm, .nfl .f_c .rfm {
+	width: 500px;
+}
+.fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td {
+	padding: 6px 2px;
+}
+.fwin .loginb button {
+	margin-left: 11.3em;
+}
